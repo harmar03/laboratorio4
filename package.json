@@ -1,0 +1,14 @@
+{
+  "name": "laboratorio4",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx servor . --single --reload --port 3000",
+    "servor": "npx servor . --single --reload --port 3000",
+    "build": "echo \"No build step for a simple static project\""
+  },
+  "devDependencies": {
+    "servor": "^1.0.0"
+  }
+}
