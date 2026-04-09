@@ -15,9 +15,7 @@ body {
   gap: 40px;
 }
 
-/* ===========================
-   BROWSER COMPLETO
-=========================== */
+
 .browser {
   width: 100%;
   max-width: 860px;
@@ -27,9 +25,7 @@ body {
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
-/* ===========================
-   BARRA CHROME (título)
-=========================== */
+
 .browser-chrome {
   background-color: #d0d0d0;
   text-align: center;
@@ -39,9 +35,7 @@ body {
   border-bottom: 1px solid #bbb;
 }
 
-/* ===========================
-   BARRA DE NAVEGACIÓN
-=========================== */
+
 .browser-bar {
   display: flex;
   flex-direction: row;
@@ -71,9 +65,7 @@ body {
   color: #333;
 }
 
-/* ===========================
-   CONTENIDO
-=========================== */
+
 .contenedor-principal {
   display: flex;
   flex-direction: column;
@@ -129,9 +121,7 @@ body {
   color: #455a64;
 }
 
-/* ===========================
-   RESPONSIVE — MÓVIL
-=========================== */
+
 @media (max-width: 600px) {
   .browser-chrome,
   .browser-bar { display: none; }
@@ -145,7 +135,6 @@ body {
     border-bottom: 1px solid #90a4ae;
   }
 
-  /* Fila inferior: C|D arriba, E abajo a todo el ancho */
   .fila-inferior {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "c d" "e e";
@@ -170,9 +159,7 @@ body {
 }
 
 
-/* ================================
-   LAYOUT 2: header/nav/article/aside/footer
-================================= */
+
 .layout2-wrapper {
   width: 100%;
   max-width: 860px;
@@ -188,7 +175,7 @@ body {
   width: 100%;
   gap: 4px;
 
-  /* Desktop: 3 columnas */
+ 
   grid-template-columns: 120px 1fr 120px;
   grid-template-areas:
     "header  header  header"
@@ -245,10 +232,7 @@ body {
   padding: 12px 16px;
 }
 
-/* ================================
-   LAYOUT 2 — MÓVIL
-   orden: header > article > nav > aside > footer
-================================= */
+
 @media (max-width: 600px) {
   .layout2 {
     grid-template-columns: 1fr;
